@@ -1,0 +1,420 @@
+
+.map{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./assets/pink.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+.pink{
+    width: 100%;
+    height: 100vh;
+    opacity: 0.1;
+   
+}
+
+
+.vidtag{
+    width: 50%;
+    height: 80vh;
+    margin-top: -45%;
+    margin-bottom: 10%;
+    float: right;
+
+  
+}
+.secpage{
+    display: flex;
+}
+.sec-tag2{
+    float: left;
+    margin-top: -35%;
+    width: 50%;
+    height: 50vh;
+    margin-right: 5%;
+
+}
+.foodpic{
+    width: 15%;
+   
+
+}
+.foodie-para{
+    margin-right: 15%;
+    color: white;
+    font-weight: bold;
+}
+.para-span{
+    padding-left: 2%;
+}
+.para-span-1{
+    padding-left: 30%;
+}
+.food-h1{
+    color: white;
+    font-size: 50px;
+}
+.food-btn{
+    width: 25%;
+    height: 4vh;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+
+}
+
+@media screen and  (min-width:0px) and (max-width:320px){
+    .map{
+        width: 100%;
+        height: 160vh;
+        background-image: url(./assets/pink.png);
+        background-repeat: no-repeat;
+        background-size: auto;
+        margin-top: 0;
+        
+        
+    }
+    .pink{
+        width: 100%;
+        height: 160vh;
+        opacity: 0.1;
+        margin-top: 0;
+
+       
+    }
+    .vidtag{
+        width: 50%;
+        height: 90vh;
+        margin-top: -300%;
+        margin-left: 25%;
+        float: none;
+        position: absolute;
+       
+      
+    }
+    .sec-tag2{
+        float: none;
+        margin-top: -160%;
+        width: 90%;
+        height: 90vh;
+        margin-right: 0%;
+        position: absolute;
+    
+    }
+    .secpage{
+        display: block;
+    }
+    .foodie-para{
+        padding-left: 15%;
+    }
+    .food-btn{
+        width: 60%;
+        height: 6vh;
+        background-color: white;
+        color: black;
+        font-weight: bold;
+        border: none;
+        border-radius: 20px;
+        margin-left: 25%;
+    
+    }
+    .food-h1{
+        color: white;
+        font-size: 30px;
+        padding-left: 5%;
+    }
+}
+@media screen and  (min-width:321px) and (max-width:375px){
+
+.map{
+        width: 100%;
+        height: 180vh;
+        background-image: url(./assets/pink.png);
+        background-repeat: no-repeat;
+        background-size: auto;
+        margin-top: 0;
+        
+        
+    }
+    .pink{
+        width: 100%;
+        height: 180vh;
+        opacity: 0.1;
+        margin-top: 0;
+
+       
+    }
+    .vidtag{
+        width: 50%;
+        height: 90vh;
+        margin-top: -280%;
+        margin-left: 25%;
+        float: none;
+        position: absolute;
+       
+      
+    }
+    .sec-tag2{
+        float: none;
+        margin-top: -140%;
+        width: 90%;
+        height: 90vh;
+        margin-right: 0%;
+        position: absolute;
+    
+    }
+    .secpage{
+        display: block;
+    }
+    .foodie-para{
+        padding-left: 15%;
+    }
+    .food-btn{
+        width: 60%;
+        height: 6vh;
+        background-color: white;
+        color: black;
+        font-weight: bold;
+        border: none;
+        border-radius: 20px;
+        margin-left: 25%;
+    
+    }
+    .food-h1{
+        color: white;
+        font-size: 30px;
+        padding-left: 5%;
+    }
+}
+
+
+@media screen and (min-width:376px)  and (max-width:425px){
+    .map{
+        width: 100%;
+        height: 180vh;
+        background-image: url(./assets/pink.png);
+        background-repeat: no-repeat;
+        background-size: auto;
+        margin-top: 0;
+        
+        
+    }
+    .pink{
+        width: 100%;
+        height: 180vh;
+        opacity: 0.1;
+        margin-top: 0;
+
+       
+    }
+    .secpage{
+        display: block;
+    }
+    .vidtag{
+        width: 50%;
+        height: 90vh;
+        margin-top: -210%;
+        margin-left: 25%;
+        float: none;
+        position: absolute;
+    
+      
+    }
+    .sec-tag2{
+        float: none;
+        margin-top: -110%;
+        width: 90%;
+        height: 90vh;
+        margin-right: 5%;
+        position: absolute;
+    
+    }
+    .foodpic{
+       display: none;
+       
+    
+    }
+    .food-h1{
+        color: white;
+        font-size: 40px;
+        padding-left: 15%;
+    }
+    .foodie-para{
+        padding-left: 15%;
+    }
+    .para-span{
+        padding-left: 0%;
+    }
+    .para-span-1{
+        padding-left: 25%;
+    }
+    .food-btn{
+        width: 60%;
+        height: 6vh;
+        background-color: white;
+        color: black;
+        font-weight: bold;
+        border: none;
+        border-radius: 20px;
+        margin-left: 15%;
+    
+    }
+    .foodie-para{
+        margin-left: 3%;
+        color: white;
+        font-weight: bold;
+        margin-right: 0%;
+    }
+    
+    
+}
+
+@media screen and (min-width:426px) and (max-width:768px){
+
+
+
+    .map{
+        width: 100%;
+        height: 150vh;
+        background-image: url(./assets/pink.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 0;
+        
+        
+    }
+    .pink{
+        width: 100%;
+        height: 150vh;
+        opacity: 0.1;
+       
+
+       
+    }
+    .vidtag{
+        width: 50%;
+        height: 80vh;
+        margin-top: -130%;
+        margin-left: 25%;
+        float: none;
+        position: absolute;
+    
+     
+    }
+    .sec-tag2{
+        float: none;
+        margin-top: -50%;
+        width: 90%;
+        height: 80vh;
+       margin-left: 20%;
+       
+        position: absolute;
+      
+        padding-left: 0%;
+    
+    }
+    .secpage{
+        display: inline;
+    }
+    .foodie-para{
+        margin-right: 0%;
+        color: white;
+        font-weight: bold;
+        padding-left: 5%;
+       
+    }
+    .food-h1{
+        color: white;
+        font-size: 40px;
+        padding-left: 0%;
+    }
+    .food-btn{
+        width: 40%;
+        height: 6vh;
+        background-color: white;
+        color: black;
+        font-weight: bold;
+        border: none;
+        border-radius: 20px;
+        margin-left: 10%;
+    
+    }
+
+}
+
+
+@media screen and (min-width:769px) {
+
+
+
+    .map{
+        width: 100%;
+        height: 150vh;
+        background-image: url(./assets/pink.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 0;
+        
+        
+    }
+    .pink{
+        width: 100%;
+        height: 150vh;
+        opacity: 0.1;
+       
+
+       
+    }
+    .vidtag{
+        width: 50%;
+        height: 80vh;
+        margin-top: -60%;
+        position: absolute;
+    
+     
+    }
+    .sec-tag2{
+        float: none;
+        margin-top: -50%;
+        width: 40%;
+        height: 80vh;
+    
+        position: absolute;
+        margin-left: 40%;
+        padding-left: 10%;
+        padding-top: 5%;
+      
+    
+    }
+    .secpage{
+     
+    }
+    .foodie-para{
+        margin-right: 0%;
+        color: white;
+        font-weight: bold;
+     
+       
+    }
+    .food-h1{
+        color: white;
+        font-size: 60px;
+        padding-left: 0%;
+    }
+    .food-btn{
+        width: 30%;
+        height: 6vh;
+        background-color: white;
+        color: black;
+        font-weight: bold;
+        border: none;
+        border-radius: 20px;
+        margin-left: 0%;
+    
+    }
+
+}
